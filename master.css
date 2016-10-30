@@ -1,0 +1,48 @@
+body {
+    background-color: #B9A3E3;
+    color: white;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+button, button:hover {
+    color: #6441A5 !important;
+    font-family: monospace;
+}
+
+button:active, button:focus {
+    background-color: #6441A5 !important;
+    color: white !important;
+    outline: 0 !important;
+}
+
+.row {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Cutive Mono', monospace;
+}
+
+.streaming {
+    background-color: #6441A5;
+    color: white;
+}
+
+.offline, .notfound {
+    background-color: white;
+    color: #6441A5;
+}
